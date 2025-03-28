@@ -7,7 +7,7 @@ import AddItem from "./AddItem";
 import apiRequest from "./apiRequest";
 
 function App() { 
-  const API_Url = "http://localhost:3500/items";
+  const API_Url = "https://react-grocery-list.onrender.com/items";
 
   const [item, setItem] = useState(
     JSON.parse(localStorage.getItem("shopingList")) || []
